@@ -2,13 +2,70 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>최규민의 AI 비즈니스 여정</title>
+    <title>최경민의 AI 비즈니스 여정</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+        header { display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        header h1 { margin: 0; }
+        header .title-area { display: flex; align-items: center; gap: 20px; }
+        .profile-photo { width: 150px; height: 150px; border-radius: 50%; border: 2px solid #ddd; object-fit: cover; background-color: #f9f9f9; display: flex; justify-content: center; align-items: center; font-size: 14px; color: #888; text-align: center; } /* 사진 없을 때 Placeholder */
+        section { margin: 40px 0; }
+        h2 { border-left: 5px solid #0073b1; padding-left: 10px; color: #0073b1; }
+        .experience-item { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .experience-item h3 { margin: 0 0 5px 0; }
+        .experience-item .company-info { font-style: italic; color: #666; margin-bottom: 10px; }
+        footer { border-top: 1px solid #eee; text-align: center; padding-top: 20px; margin-top: 50px; font-size: 14px; color: #777; }
+        a { color: #0073b1; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-    <h1>안녕하세요! AI 비즈니스 아키텍트 최규민입니다. 👋</h1>
-    <hr>
-    <p>이곳은 KAIST MBA 'AI 기반 비즈니스 진화' 수업 과제를 위해 만든 저의 첫 번째 웹사이트입니다.</p>
-    <p>앞으로 Vibe coding과 AI 협업을 통해 진화하는 저의 성장 기록을 이곳에 남길 예정입니다.</p>
-    <p>지켜봐 주세요!</p>
+
+    <header>
+        <div class="title-area">
+            <img src="profile.jpg" alt="최경민 프로필 사진" class="profile-photo" onerror="this.src='';this.innerText='사진 등록 예정입니다!';">
+            <div>
+                <h1>최경민</h1>
+                <p>AI 비즈니스 아키텍트 | Data Scientist</p>
+                <p>#VibeCoding #NoCode #AI_Biz #KAIST_MBA</p>
+            </div>
+        </div>
+        <a href="resume.pdf" target="_blank" style="background-color: #0073b1; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">이력서(PDF) 보기</a>
+    </header>
+
+    <main>
+        <section id="summary">
+            <h2>내 소개 (Summary)</h2>
+            <p><strong></strong> PDF 분석 결과, 'Data Scientist, Data Analyst, AI Biz Architect'로서의 정체성을 가지고 계십니다. 이지수 교수님 수업의 학습 전략을 바탕으로 AI 기술을 비즈니스에 실제 적용하여 가치를 창출하는 아키텍트가 되는 여정을 밟고 있습니다.</p>
+        </section>
+
+        <section id="experience">
+            <h2>경력 (Experience)</h2>
+            
+            <div class="experience-item">
+                <h3>Posco DX</h3>
+                <p class="company-info"> Data Scientist</p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Samsung SDS</h3>
+                <p class="company-info"> Pro</p>
+            </div>
+            
+            <p>※ 상세 경력은 상단의 이력서(PDF) 버튼을 클릭하여 확인해 주세요.</p>
+        </section>
+
+        <section id="contact">
+            <h2>연락처 (Contact)</h2>
+            <p><strong>위치:</strong> 서울, 대한민국</p>
+            <p><strong>LinkedIn:</strong> <a href="" target="_blank">최경민 링크드인 프로필</a></p>
+            <p>언제든지 연락해 주세요!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Kyungmin Choi. All rights reserved. (이지수 교수님 HW3 결과물)</p>
+    </footer>
+
 </body>
 </html>
